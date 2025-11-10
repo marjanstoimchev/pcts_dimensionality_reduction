@@ -1,0 +1,41 @@
+# ARFF output directories
+arffs/
+arffs_backup/
+Arfs/
+Arfs_mcc/
+Arfs_mlc/
+ARFS_MCC_TASK_PCA/
+
+# Feature and data files
+FEATURES/
+*.npy
+*.arff
+*.s
+
+# Results and outputs
+RESULTS/
+*.out
+log.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

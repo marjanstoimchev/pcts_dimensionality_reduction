@@ -2,6 +2,10 @@
 
 This repository contains scripts and utilities for preparing ARFF (Attribute-Relation File Format) files from deep learning feature extractions for use with [CLUS+](https://github.com/knowledge-technologies/clus), a predictive clustering machine learning system.
 
+This work is based on the research presented in:
+
+> Sintija Stevanoska, Marjan Stoimchev, Jurica Levatić, and Sašo Džeroski. **"Dimensionality Reduction for Efficient Semi-supervised Learning from Remote Sensing Images."** In *Machine Learning and Principles and Practice of Knowledge Discovery in Databases: International Workshops of ECML PKDD 2024, Vilnius, Lithuania, September 9--13, 2024, Revised Selected Papers, Part III, Communications in Computer and Information Science, vol. 2560*. Springer, Cham, 2026 (In press).
+
 ## About CLUS+
 
 [CLUS+](https://github.com/knowledge-technologies/clus) is a Java-based decision tree and rule induction software developed by the Department of Knowledge Technologies at Jožef Stefan Institute. It implements a predictive clustering framework that handles:
@@ -393,7 +397,24 @@ python run_create_arff.py
 
 ## Citation
 
-If you use CLUS+ in your research, please cite:
+If you use this work in your research, please cite:
+
+```bibtex
+@inproceedings{Stevanoska2026_DimReductionSSL,
+  author    = {Sintija Stevanoska and Marjan Stoimchev and Jurica Levati{\'c} and Sa{\v{s}}o D{\v{z}}eroski},
+  title     = {Dimensionality Reduction for Efficient Semi-supervised Learning from Remote Sensing Images},
+  booktitle = {Machine Learning and Principles and Practice of Knowledge Discovery in Databases:
+               International Workshops of ECML PKDD 2024, Vilnius, Lithuania, September 9--13, 2024,
+               Revised Selected Papers, Part~III, Communications in Computer and Information Science, vol.~2560},
+  publisher = {Springer},
+  address   = {Cham},
+  year      = {2026},
+  note      = {In press},
+  keywords  = {myconf}
+}
+```
+
+If you use CLUS+ in your research, please also cite:
 
 ```
 Knowledge Technologies Department, Jožef Stefan Institute
